@@ -1,9 +1,9 @@
-defaults            :
+defaults:
   - 
     scope:
       path: ""
     values:
-      layout: "default"
+      layout: "indexLayout"
   - 
     scope:
       path: ""
