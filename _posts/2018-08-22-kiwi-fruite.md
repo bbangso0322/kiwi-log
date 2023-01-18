@@ -1,5 +1,6 @@
 ---
 author: ted
+categories: food asdf
 ---
 Kiwifruit (often abbreviated as kiwi), or Chine
 
