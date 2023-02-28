@@ -1,5 +1,7 @@
-.flex-center{
-    margin: 0 auto;
+
+.flex-horizon-container{
+    display: flex;
+    flex-direction: row;
 }
 
 .flex-vertical-container{
@@ -7,12 +9,26 @@
     flex-direction: column;
 }
 
-.narrow-container{
-    display: flex;
-    flex-basis: 800px;
-    background-color: red;
+.flex-basis-container{
+    flex-basis: 896px;
 }
 
-.color-green{
-    background-color: green;
+.flex-basis-card{
+    flex-basis: 262px;
+}
+
+.position-center{
+    justify-content: center;
+}
+
+.total-background-color{
+    background-color: #292A2D;
+}
+
+.card-background-color{
+    background-color: #35363A;
+}
+
+.radius-corner{
+    border-radius: 10px;
 }

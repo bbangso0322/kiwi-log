@@ -3,6 +3,14 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    
-    background-color: beige;
+    background-color: #292A2D;
+}
+
+a{
+    text-decoration: none;
+    color: yellow;
+}
+
+a:hover{
+    color: green;
 }
