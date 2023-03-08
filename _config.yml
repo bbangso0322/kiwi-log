@@ -10,3 +10,11 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+  -
+    scope:
+      path: "assets/img"
+    values:
+      image: true
+
+
+

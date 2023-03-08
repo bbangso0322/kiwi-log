@@ -9,3 +9,9 @@
     </li>
     {% endfor %}
 </ul>
+
+{% assign f = site.static_files %}
+
+{% for name in f %}
+{{ name.path }}
+{% endfor %}

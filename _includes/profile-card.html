@@ -1,9 +1,11 @@
+{% assign profile_img = site.static_files | where: "image", true %}
+
 <div class="flex-vertical-container margin-bottom-20">
     <div class="card-title">
         <p class="card-title-text">Profile</p>
     </div>
-    <div class="flex-vertical-container card-background-color radius-corner shadow">
-        <img src="" alt="아직없음" width="100px">
+    <div class="flex-vertical-container card-background-color radius-corner shadow padding-all-20">
+        <img src="{{ profile_img[0].path }}" alt="아직없음">
         <p>bbangso0322</p>
         <p>성장하는 개발자</p>
         <p>뭐뭐 하는 개발자로 성장하는 것이 꿈입니다.</p>
