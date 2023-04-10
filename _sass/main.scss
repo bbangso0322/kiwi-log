@@ -4,6 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #292A2D;
+    font-family: "noto";
 }
 
 a{
@@ -18,4 +19,14 @@ a:hover{
 img{
     width: 100%;
     border-radius: 10px;
+}
+
+@font-face {
+    font-family: robo;
+    src: url(/assets/font/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: noto;
+    src: url(/assets/font/NotoSansKR-Regular.otf);
 }
