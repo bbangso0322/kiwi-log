@@ -4,7 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #292A2D;
-    font-family: "noto";
+    font-family: "noto", "robo";
 }
 
 a{
@@ -29,4 +29,5 @@ img{
 @font-face {
     font-family: noto;
     src: url(/assets/font/NotoSansKR-Regular.otf);
+    unicode-range: U+AC00-D7A3;
 }
