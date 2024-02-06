@@ -2,12 +2,13 @@
 <html>
 	<head>
 		<meta charset='utf-8'/>
-		<title>{{ page.title }}</title>
+		<title>{{ page.name | replace: '.md', '' | replace: '.html', '' }}{%if page.collection != "mywikis" %} | {{ site.wiki_name }}{%endif%}</title>
 		<link rel="stylesheet" href="/assets/css/styles.css">
 	</head>
 	<body>
 		{% include header.html %}
-		{% include navigation.html %}
-		{{ content }}
+		<div class="total-container">
+			{{ content }}
+		</div>
 	</body>
 </html>

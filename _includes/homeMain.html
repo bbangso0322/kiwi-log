@@ -1,0 +1,17 @@
+<div class="vertical-container">
+	<div class="search-bar-container">
+		<input></input>
+	</div>
+
+	<div class="wikis-container">
+		<ul>
+		{% for wiki in site.mywikis %}
+			<li>
+				<a href={{ wiki.url }}>
+					{{ wiki.name }}
+				</a>
+			</li>
+		{% endfor %}
+		</ul>
+	</div>
+</div>

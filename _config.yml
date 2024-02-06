@@ -1,19 +1,12 @@
 collections:
-  authors:
+  mywikis:
     output: true
 
 defaults:
   - scope:
       path: ""
-      type: "authors"
+      type: "mywikis"
     values:
-      layout: "author"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  - scope:
-      path: ""
-    values:
-      layout: "default"
+      layout: "wikipage"
+
+wiki_name: Bbangso-wiki
