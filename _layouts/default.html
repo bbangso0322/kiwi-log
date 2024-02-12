@@ -4,6 +4,10 @@
 		<meta charset='utf-8'/>
 		<title>{{ page.name | replace: '.md', '' | replace: '.html', '' }}{%if page.collection != "mywikis" %} | {{ site.wiki_name }}{%endif%}</title>
 		<link rel="stylesheet" href="/assets/css/styles.css">
+		<script type="module" src="/assets/js/index.js"></script>
+		<script src="/assets/fontawesome/js/fontawesome.js"></script>
+		<script src="/assets/fontawesome/js/brands.js"></script>
+		<script src="/assets/fontawesome/js/solid.js"></script>
 	</head>
 	<body>
 		{% include header.html %}

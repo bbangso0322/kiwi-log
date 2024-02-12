@@ -1,20 +1,28 @@
 .header-container {
 	display: flex;
+	padding: 5px;
 }
 
 .wiki-name {
-	
+	margin: 0;	
 }
 
 .index-text {
+	margin: 0;
 }
 
 .about-text {
-
+	margin: 0;
 }
 
 .navi-container {
 	display: flex;
+	align-items: center;
 	margin-left: auto;
 	gap: 20px;	
 }
+
+.light-mode {
+	font-size: 25px;
+}
+
