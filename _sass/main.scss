@@ -6,6 +6,8 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: var(--background-color);
+
+	font-family: 'Spoqa Han Sans Neo', sans-serif;
 }
 
 ul {
@@ -29,3 +31,4 @@ a {
 
 @import "header";
 @import "home";
+@import "font";
