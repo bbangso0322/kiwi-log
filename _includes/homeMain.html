@@ -1,14 +1,18 @@
 <div class="vertical-container">
+	{% include profile.html %}
 	<div class="search-bar-container">
 		<input></input>
 	</div>
 
+	<h1 class="recent-page-text">Recent wiki pages</h1>
 	<div class="wikis-container">
-		<ul>
+		<ul class="card-list">
 		{% for wiki in site.mywikis %}
 			<li>
-				<a href={{ wiki.url }}>
-					{{ wiki.name }}
+				<a class="card" href={{ wiki.url }}>
+					<h2 class="card-title">{{ wiki.name | remove: ".md"}}</h2>
+					<p class="card-date">{{ wiki.date }}</p>
+					<p class="card-summary">{{ wiki.excerpt | strip_html | truncate: 60, "..."}}</p>
 				</a>
 			</li>
 		{% endfor %}
