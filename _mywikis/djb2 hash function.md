@@ -1,8 +1,5 @@
 ---
 ---
-
-# djb2 hash function
-
 성능이 준수하면서 구현하기 쉬운 hash function입니다. 구현은 다음과 같습니다.
 
 ```c

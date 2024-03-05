@@ -1,8 +1,5 @@
 ---
 ---
-
-# CSAPP Architecture Lab
-
 CSAPP의 Architecture Lab에 대한 솔루션입니다.
 
 ## 환경 구성
