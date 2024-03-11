@@ -3,18 +3,24 @@
 	flex-direction: column;
 }
 
+.recent-page-text {
+	font-weight: 700;
+	font-size: 1.25rem;
+	margin: 1rem 0.2rem 0.5rem 0.2rem;
+}
+
 .card {
 	display: flex;
 	flex-direction: column;
-	background-color: var(--background-gray);
+	background-color: var(--background-secondary);
 	padding: 30px;
-	border-radius: 10px;
+	border-radius: 30px;
 	transition: background-color 300ms, border-radius 700ms;
 }
 
 .card:hover {
 	background-color: var(--background-hover);	
-	border-radius: 30px;
+	border-radius: 15px;
 }
 
 .card-list {

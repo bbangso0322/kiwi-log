@@ -7,6 +7,19 @@ body {
 	background-color: var(--background-color);
 
 	font-family: 'Spoqa Han Sans Neo', sans-serif;
+	color: var(--font-color);
+}
+
+input {
+	flex-grow: 1;
+	border: none;
+	color: var(--font-color);
+	font-size: 0.9rem;
+	background-color: transparent;
+}
+
+input:focus {
+	outline: none;
 }
 
 ul {
@@ -15,7 +28,7 @@ ul {
 }
 
 a {
-	color: black;
+	color: var(--font-color);
 	text-decoration: none;
 }
 
@@ -31,3 +44,5 @@ a {
 @import "header";
 @import "home";
 @import "font";
+@import "footer";
+@import "searchBar";

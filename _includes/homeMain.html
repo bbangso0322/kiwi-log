@@ -1,10 +1,7 @@
 <div class="vertical-container">
 	{% include profile.html %}
-	<div class="search-bar-container">
-		<input></input>
-	</div>
-
-	<h1 class="recent-page-text">Recent wiki pages</h1>
+	{% include searchBar.html %}
+	<div class="recent-page-text"><i class="fa-solid fa-newspaper"></i> Recent wiki pages </div>
 	<div class="wikis-container">
 		<ul class="card-list">
 		{% for wiki in site.mywikis %}
