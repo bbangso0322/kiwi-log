@@ -37,16 +37,19 @@ class LightMode{
 			styler.setProperty("--background-hover", '#FFDAD4');
 			styler.setProperty("--font-color", '#3C2421');
 			styler.setProperty("--background-search-bar", '#F6E9DE');
-			styler.setProperty("--search-icon-hover", '#86705B');
+			styler.setProperty("--border-color", '#F6E9DE');
+			styler.setProperty("--icon-hover", '#86705B');
 			modeIcon.classList.remove("fa-moon");
 			modeIcon.classList.add("fa-sun");
 		}
 		else {
-			styler.setProperty("--background-color", 'red');
-			styler.setProperty("--background-secondary", 'blue');
+			styler.setProperty("--background-color", '#3C2421');
+			styler.setProperty("--background-secondary", 'gray');
 			styler.setProperty("--background-hover", '#FFDAD4');
 			styler.setProperty("--font-color", 'white');
 			styler.setProperty("--background-search-bar", '#3C2421');
+			styler.setProperty("--border-color", '#F6E9DE');
+			styler.setProperty("--icon-hover", '#86705B');
 			modeIcon.classList.remove("fa-sun");
 			modeIcon.classList.add("fa-moon");
 		}

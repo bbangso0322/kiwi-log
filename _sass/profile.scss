@@ -1,0 +1,66 @@
+.vertical-flex {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 1rem;
+}
+
+.profile-text {
+	font-weight: 700;
+	font-size: 1.25rem;
+	margin: 2rem 0.2rem 0.5rem 0.2rem;
+}
+
+.profile-container {
+	display: flex;
+	background-color: transparent;
+
+	overflow: hidden;
+	gap: 0.5rem;
+}
+
+.profile-img {
+	object-fit: cover;
+	border-radius: 0.8rem;
+	border: 1.8px solid var(--border-color-);
+	width: 9rem;
+}
+
+.profile-description-container {
+	display: flex;
+	flex-direction: column;
+	border-radius: 0.8rem;
+	flex-grow: 1;
+	padding: 1rem;
+	background-color: var(--background-secondary);
+}
+
+.profile-icon {
+	font-size: 1.1rem;
+}
+
+.profile-message {
+	margin-bottom: 1rem;
+}
+
+.username {
+	font-weight: 800;
+	font-size: 1.1rem;
+	margin-bottom: 0.2rem;
+}
+
+.user-role {
+	font-size: 0.9rem;
+	color: gray;
+	margin-bottom: 0.4rem;
+}
+
+.contact-container {
+	display: flex;
+	gap: 0.3rem;
+	font-size: 1.2rem;
+}
+
+.brand-icon:hover {
+	cursor: pointer;
+	color: var(--icon-hover);
+}
