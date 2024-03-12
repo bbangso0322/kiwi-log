@@ -10,5 +10,11 @@ defaults:
       layout: "wikipage"
 
 wiki_name: Bbangso-wiki
-username: bbangso
-user_role: frontend developer
+profile_img: /assets/img/sample-profile.png
+username: Your name
+user_role: sample developer
+user_description: sample message
+instagram_url: https://www.instagram.com/sample
+github_url: https://github.com/typegithubid
+linkedin_url: 
+

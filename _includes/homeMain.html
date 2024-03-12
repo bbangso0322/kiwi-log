@@ -7,9 +7,9 @@
 		{% for wiki in site.mywikis %}
 			<li>
 				<a class="card" href={{ wiki.url }}>
-					<h2 class="card-title">{{ wiki.title }}</h2>
-					<p class="card-date">{{ wiki.date }}</p>
-					<p class="card-summary">{{ wiki.excerpt | strip_html | truncate: 60, "..."}}</p>
+					<div class="card-title">{{ wiki.title }}</div>
+					<div class="card-date">{{ wiki.date }}</div>
+					<div class="card-summary">{{ wiki.excerpt | strip_html | truncate: 60, "..."}}</div>
 				</a>
 			</li>
 		{% endfor %}

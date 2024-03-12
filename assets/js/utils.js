@@ -39,6 +39,7 @@ class LightMode{
 			styler.setProperty("--background-search-bar", '#F6E9DE');
 			styler.setProperty("--border-color", '#F6E9DE');
 			styler.setProperty("--icon-hover", '#86705B');
+			styler.setProperty("--font-color-gray", '#9E7E78');
 			modeIcon.classList.remove("fa-moon");
 			modeIcon.classList.add("fa-sun");
 		}
@@ -50,6 +51,7 @@ class LightMode{
 			styler.setProperty("--background-search-bar", '#3C2421');
 			styler.setProperty("--border-color", '#F6E9DE');
 			styler.setProperty("--icon-hover", '#86705B');
+			styler.setProperty("--font-color-gray", 'gray');
 			modeIcon.classList.remove("fa-sun");
 			modeIcon.classList.add("fa-moon");
 		}

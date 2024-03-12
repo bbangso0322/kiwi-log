@@ -6,7 +6,7 @@
 
 .profile-text {
 	font-weight: 700;
-	font-size: 1.25rem;
+	font-size: 1.1rem;
 	margin: 2rem 0.2rem 0.5rem 0.2rem;
 }
 
@@ -20,37 +20,37 @@
 
 .profile-img {
 	object-fit: cover;
-	border-radius: 0.8rem;
-	border: 1.8px solid var(--border-color-);
-	width: 9rem;
+	border-radius: 1.5rem;
+	width: 7.4rem;
 }
 
 .profile-description-container {
 	display: flex;
 	flex-direction: column;
-	border-radius: 0.8rem;
+	border-radius: 1rem;
 	flex-grow: 1;
 	padding: 1rem;
 	background-color: var(--background-secondary);
 }
 
 .profile-icon {
-	font-size: 1.1rem;
-}
-
-.profile-message {
-	margin-bottom: 1rem;
+	font-size: 1rem;
 }
 
 .username {
 	font-weight: 800;
-	font-size: 1.1rem;
-	margin-bottom: 0.2rem;
+	font-size: 1rem;
+	margin-bottom: 0.1rem;
 }
 
 .user-role {
-	font-size: 0.9rem;
-	color: gray;
+	font-size: 0.87rem;
+	color: var(--font-color-gray);
+	margin-bottom: 0.4rem;
+}
+
+.user-description {
+	font-size: 0.87rem;
 	margin-bottom: 0.4rem;
 }
 

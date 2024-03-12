@@ -2,14 +2,23 @@
 <div class="vertical-flex">
 	<div class="profile-text"><i class="fa-solid fa-user profile-icon"></i> Profile</div>
 	<div class="profile-container">
-		<img src="https://cdn.pixabay.com/photo/2024/03/04/16/07/winter-8612635_1280.jpg" class="profile-img"></img>
+		<img src="{{ site.profile_img }}" class="profile-img"></img>
 		<div class="profile-description-container">
 			<div class="username">{{ site.username }}</div>
 			<div class="user-role">{{ site.user_role }}</div>
-			<div class="profile-message">hi i'm soyun</div>
+			<div class="user-description">{{ site.user_description }}</div>
 			<div class="contact-container">
-				<i class="fa-brands fa-github brand-icon"></i>
-				<i class="fa-brands fa-square-instagram brand-icon"></i>
+				{% if site.github_url %}
+					<a href="{{ site.github_url }}"><i class="fa-brands fa-github brand-icon"></i></a>
+				{% endif %}
+
+				{% if site.instagram_url %}
+					<a href="{{ site.instagram_url }}"><i class="fa-brands fa-square-instagram brand-icon"></i></a>
+				{% endif %}
+
+				{% if site.linkedin_url %}
+					<a href="{{ site.linkedin_url }}"><i class="fa-brands fa-linkedin brand-icon"></i></a>
+				{% endif %}
 			</div>
 		</div>
 	</div>

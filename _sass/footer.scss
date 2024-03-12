@@ -1,12 +1,19 @@
 .footer-container {
 	display: flex;
 	flex-direction: column;
-	height: 5rem;
 	align-items: center;
 	gap: 0.4rem;
-	margin-top: 1rem;
+	margin-top: 1.6rem;
+	margin-bottom: 2rem;
 }
 
 .copyright-text {
 	font-size: 0.8rem;
+}
+
+.bottom-line {
+	border: none;
+	border-top: 2px solid var(--font-color);
+	width: 0.7rem;
+	opacity: 0.4;
 }
