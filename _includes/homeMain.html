@@ -4,22 +4,21 @@
 	<div class="recent-page-text"><i class="fa-solid fa-newspaper"></i> Recent wiki pages </div>
 	<div class="wikis-container">
 		<ul class="card-list">
-		{% for wiki in site.mywikis %}
+		{% assign sorted_wiki = site.mywikis | sort: 'date' | reverse%}
+		{% for wiki in sorted_wiki %}
 			<li>
-				<div class="card" href={{ wiki.url }}>
-					<a href={{ wiki.url }}>
+				<a class="card" href={{ wiki.url }}>
 						<div class="card-title">{{ wiki.title }}</div>
 						<div class="card-date">{{ wiki.date | date: "%b %-d, %Y" }}</div>
 						<div class="card-summary">{{ wiki.excerpt | strip_html | truncate: 100, "..."}}</div>
-					</a>
-						{% if wiki.tags %}
+						{% if wiki.tags.size != 0 %}
 							<div class="tag-badge-container">
 							{% for tag in wiki.tags %}
-								<div class="tag-badge">{{ tag }}</div>
+							<div class="tag-badge">{{ tag }}</div>
 							{% endfor %}
 							</div>
 						{% endif %}
-				</div>
+				</a>
 			</li>
 		{% endfor %}
 		</ul>

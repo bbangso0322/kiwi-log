@@ -41,6 +41,7 @@ class LightMode{
 			styler.setProperty("--icon-hover", '#86705B');
 			styler.setProperty("--font-color-gray", '#9E7E78');
 			styler.setProperty("--badge-background-color", '#E6D0BF');
+			styler.setProperty("--badge-background-hover", '#E3A678');
 			styler.setProperty("--badge-font-color", '#B27444');
 			modeIcon.classList.remove("fa-moon");
 			modeIcon.classList.add("fa-sun");
@@ -55,6 +56,7 @@ class LightMode{
 			styler.setProperty("--icon-hover", '#86705B');
 			styler.setProperty("--font-color-gray", 'gray');
 			styler.setProperty("--badge-background-color", '#FFFFFF');
+			styler.setProperty("--badge-baground-hover", '#E6D0BF');
 			styler.setProperty("--badge-font-color", '#F4DACC');
 			modeIcon.classList.remove("fa-sun");
 			modeIcon.classList.add("fa-moon");
