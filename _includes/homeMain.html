@@ -6,11 +6,20 @@
 		<ul class="card-list">
 		{% for wiki in site.mywikis %}
 			<li>
-				<a class="card" href={{ wiki.url }}>
-					<div class="card-title">{{ wiki.title }}</div>
-					<div class="card-date">{{ wiki.date }}</div>
-					<div class="card-summary">{{ wiki.excerpt | strip_html | truncate: 60, "..."}}</div>
-				</a>
+				<div class="card" href={{ wiki.url }}>
+					<a href={{ wiki.url }}>
+						<div class="card-title">{{ wiki.title }}</div>
+						<div class="card-date">{{ wiki.date | date: "%b %-d, %Y" }}</div>
+						<div class="card-summary">{{ wiki.excerpt | strip_html | truncate: 100, "..."}}</div>
+					</a>
+						{% if wiki.tags %}
+							<div class="tag-badge-container">
+							{% for tag in wiki.tags %}
+								<div class="tag-badge">{{ tag }}</div>
+							{% endfor %}
+							</div>
+						{% endif %}
+				</div>
 			</li>
 		{% endfor %}
 		</ul>

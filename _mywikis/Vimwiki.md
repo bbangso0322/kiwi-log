@@ -1,4 +1,6 @@
 ---
+date: Sat Mar 12 22:13:44 KST 2024
+last_modified_at: Sat Mar 16 22:14:19 KST 2024
 ---
 Vimwiki는 자신만의 위키를 Vim 에디터 기반으로 구축할 수 있는 플러그인입니다. 
 

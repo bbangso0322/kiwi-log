@@ -1,4 +1,7 @@
 ---
+date: Sat Mar 16 22:15:05 KST 2024
+last_modified_at: Sat Mar 16 22:15:34 KST 2024
+tags: vim wiki
 ---
 * [Vimwiki](Vimwiki)
 * [Vim](Vim)
