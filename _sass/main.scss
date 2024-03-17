@@ -42,11 +42,11 @@ a {
 
 .total-container {
 	display: flex;
-	justify-content: center;
 	flex-direction: row;
-	max-width: 45em;
+	justify-content: center;
+	align-items: flex-start;
 	margin: 0 auto;
-	gap: 20rem;
+	gap: 2rem;
 	padding: 0 1.2rem;
 }
 

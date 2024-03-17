@@ -3,6 +3,7 @@
 	flex-direction: column;
 	flex-grow: 1;
 	margin-bottom: 1rem;
+	max-width: 45rem;
 }
 
 .recent-page-text {
@@ -57,7 +58,7 @@
 	background-color: var(--badge-background-color);
 	color: var(--badge-font-color);
 	border-radius: 0.7rem;
-	padding: 0.2rem 0.4rem;
+	padding: 0.3rem 0.4rem;
 	font-size: 0.85rem;
 	font-weight: 700;
 	margin-top: 0.6rem;
