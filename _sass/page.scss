@@ -7,6 +7,11 @@
 	flex-grow: 1;
 	flex-shrink: 1;
 	flex-basis: 40rem;
+	background-color: white;
+	padding: 2rem 5rem 4rem 5rem;
+	border-radius: 2rem;
+	margin-top: 2rem;
+	border: 1px solid var(--border-color);
 }
 
 .overview {
@@ -15,4 +20,18 @@
 	top: 20px;
 	background-color: blue;
 	width: 4rem;
+	flex-basis: 10rem;
+}
+
+.wiki-title {
+	font-size: 1.7rem;
+	font-weight: 800;
+	margin-bottom: 0.8rem;
+	margin-top: 1rem;
+}
+
+.date-at {
+	margin-left: auto;
+	font-size: 0.9rem;
+	color: var(--font-color-gray);
 }

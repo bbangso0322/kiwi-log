@@ -4,19 +4,22 @@ layout: default
 <div class="overview">
 </div>
 <div class="page-container">
-	<h1>{{ page.title }}</h1>
-
-	<p>
-	  {{ page.date | date_to_string }}
-	  {% assign author = site.authors | where: 'short_name', page.author | first %}
-	  {% if author %}
-		- <a href="{{ author.url }}">{{ author.name }}</a>
-	  {% endif %}
-	</p>
+	<div class="date-at">
+		created at: {{ page.date | date: "%Y %b %-d" }}
+	</div>
+	<div class="date-at">
+		updated at: {{ page.last_modified_at | date: "%Y %b %-d" }}	
+	</div>
+	<div class="tag-badge-container">
+	{% for tag in page.tags %}
+		<div class="tag-badge">{{ tag }}</div>
+	{% endfor %}
+	</div>
+	<div class="wiki-title">{{ page.title }}</div>
 
 	{{ content }}
 
 </div>
 <div class="overview">
-	
+	soso
 </div>
