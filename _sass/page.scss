@@ -7,7 +7,7 @@
 	flex-grow: 1;
 	flex-shrink: 1;
 	flex-basis: 40rem;
-	background-color: white;
+	background-color: var(--background-color-page);
 	padding: 2rem 5rem 4rem 5rem;
 	border-radius: 2rem;
 	margin-top: 2rem;
@@ -23,11 +23,16 @@
 	flex-basis: 10rem;
 }
 
+.title-tag {
+	font-size: 0.7rem;
+	margin-top: 0.8rem;
+	color: var(--title-tag-color);
+}
+
 .wiki-title {
 	font-size: 1.7rem;
 	font-weight: 800;
-	margin-bottom: 0.8rem;
-	margin-top: 1rem;
+	margin-bottom: 1.2rem;
 }
 
 .date-at {

@@ -43,11 +43,13 @@ class LightMode{
 			styler.setProperty("--badge-background-color", '#E6D0BF');
 			styler.setProperty("--badge-background-hover", '#E3A678');
 			styler.setProperty("--badge-font-color", '#B27444');
+			styler.setProperty("--title-tag-color", '#B27444');
+			styler.setProperty("--background-color-page", 'white');
 			modeIcon.classList.remove("fa-moon");
 			modeIcon.classList.add("fa-sun");
 		}
 		else {
-			styler.setProperty("--background-color", '#3C2421');
+			styler.setProperty("--background-color", 'black');
 			styler.setProperty("--background-secondary", 'gray');
 			styler.setProperty("--background-hover", '#FFDAD4');
 			styler.setProperty("--font-color", 'white');
@@ -58,6 +60,8 @@ class LightMode{
 			styler.setProperty("--badge-background-color", '#FFFFFF');
 			styler.setProperty("--badge-baground-hover", '#E6D0BF');
 			styler.setProperty("--badge-font-color", '#F4DACC');
+			styler.setProperty("--title-tag-color", '#B27444');
+			styler.setProperty("--background-color-page", 'black');
 			modeIcon.classList.remove("fa-sun");
 			modeIcon.classList.add("fa-moon");
 		}
