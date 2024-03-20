@@ -6,7 +6,7 @@
 		<ul class="card-list">
 		{% assign sorted_wiki = site.mywikis | sort: 'date' | reverse%}
 		{% for wiki in sorted_wiki %}
-			<li>
+			<li class="no-list-style">
 				<a class="card" href={{ wiki.url }}>
 						<div class="card-title">{{ wiki.title }}</div>
 						<div class="card-date">{{ wiki.date | date: "%b %-d, %Y" }}</div>
