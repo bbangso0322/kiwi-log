@@ -14,13 +14,32 @@
 	border: 1px solid var(--border-color);
 }
 
-.overview {
+.tableOfContent {
 	display: flex;
+	flex-direction: column;
 	position: sticky;
-	top: 20px;
-	background-color: blue;
+	top: 5rem;
 	width: 4rem;
 	flex-basis: 10rem;
+	margin-top: 11rem;
+	border-left: 2px solid var(--toc-border-color);
+	padding-left: 0.7rem;
+}
+
+.toc {
+	display: flex;
+	flex-direction: column;
+	padding-left: 1.2rem;
+}
+
+.toc-element {
+	font-size: 0.9rem;
+	opacity: 0.5;
+}
+
+.toc-element:hover {
+	opacity: 1;
+	font-weight: 700;
 }
 
 .title-tag {
@@ -40,3 +59,5 @@
 	font-size: 0.9rem;
 	color: var(--font-color-gray);
 }
+
+

@@ -45,6 +45,7 @@ class LightMode{
 			styler.setProperty("--badge-font-color", '#B27444');
 			styler.setProperty("--title-tag-color", '#B27444');
 			styler.setProperty("--background-color-page", 'white');
+			styler.setProperty("--toc-border-color", '#CDC7C3');
 			modeIcon.classList.remove("fa-moon");
 			modeIcon.classList.add("fa-sun");
 		}
@@ -62,6 +63,7 @@ class LightMode{
 			styler.setProperty("--badge-font-color", '#F4DACC');
 			styler.setProperty("--title-tag-color", '#B27444');
 			styler.setProperty("--background-color-page", 'black');
+			styler.setProperty("--toc-border-color", 'white');
 			modeIcon.classList.remove("fa-sun");
 			modeIcon.classList.add("fa-moon");
 		}

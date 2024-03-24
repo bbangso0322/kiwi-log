@@ -8,3 +8,28 @@ p {
 	background-color: gray;
 	border-radius: 1rem;
 }
+
+.page-container h1,
+.page-container h2,
+.page-container h3,
+.page-container h4,
+.page-container h5,
+.page-container h6 {
+	position: relative;
+}
+
+
+.page-container ul,
+.page-container ol {
+	padding-left: 1rem;
+}
+
+.task-list {
+	list-style: none;
+}
+
+.anchor {
+	position: absolute;
+	left: -1rem;
+	font-size: 1rem;
+}
