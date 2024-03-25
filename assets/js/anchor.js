@@ -8,10 +8,21 @@ class AnchorManager {
 	}
 
 	createToc(headers, toc) {
+		const headerPadding = {
+			"H1": "0rem",
+			"H2": "0.5rem",
+			"H3": "1rem",
+			"H4": "1.5rem",
+			"H5": "2rem",
+			"H6": "2.5rem"
+		}
+
 		for (const header of headers) {
+			console.log(headerPadding[header.tagName]);
 			const tocElement = document.createElement('a');
 			tocElement.setAttribute('href', '#' + header.id);
 			tocElement.setAttribute('class', 'toc-element');
+			tocElement.style.paddingLeft = headerPadding[header.tagName];
 			tocElement.textContent = header.id; 
 			toc.appendChild(tocElement);
 		}
