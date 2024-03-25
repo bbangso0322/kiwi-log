@@ -46,6 +46,7 @@ class LightMode{
 			styler.setProperty("--title-tag-color", '#B27444');
 			styler.setProperty("--background-color-page", 'white');
 			styler.setProperty("--toc-border-color", '#CDC7C3');
+			styler.setProperty("--anchor-color", '#CFA684');
 			modeIcon.classList.remove("fa-moon");
 			modeIcon.classList.add("fa-sun");
 		}

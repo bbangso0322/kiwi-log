@@ -35,6 +35,15 @@ class AnchorManager {
 			anchorElement.setAttribute('href', '#' + header.id);
 			anchorElement.setAttribute('class', 'anchor');
 			anchorElement.textContent = "링크";	
+			anchorElement.innerHTML = '<i class="fa-solid fa-paperclip"></i>';	
+
+			header.addEventListener('mouseover', () => {
+				anchorElement.classList.add('anchor-hover');	
+			});
+
+			header.addEventListener('mouseout', () => {
+				anchorElement.classList.remove('anchor-hover');	
+			});
 
 			header.appendChild(anchorElement);
 		}
