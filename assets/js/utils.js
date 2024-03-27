@@ -16,7 +16,6 @@ class LightMode{
 
 	toggleMode(){
 		let isDarkMode = localStorage.getItem("isDarkMode");
-		console.log(typeof(isDarkMode));
 		
 		if(isDarkMode == "true") {
 			localStorage.setItem("isDarkMode", false);
