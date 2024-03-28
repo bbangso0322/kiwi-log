@@ -2,11 +2,15 @@ p {
 	margin: 0.4rem 0;
 }
 
-.highlighter-rouge {
+.highlight pre {
 	overflow-x: auto;
-	padding: 1rem;
-	background-color: gray;
+	background-color: var(--code-background-color);
+	padding: 1.3rem;
+	border: 1px solid var(--code-border-color);	
 	border-radius: 1rem;
+	font-family: monospace;
+	font-size: 0.8rem;
+	line-height: 1rem;
 }
 
 .page-container h1,
@@ -23,7 +27,6 @@ p {
 .page-container ol {
 	padding-left: 1rem;
 }
-
 
 .page-container h1 {
 	font-size: 1.6rem;

@@ -46,6 +46,8 @@ class LightMode{
 			styler.setProperty("--background-color-page", 'white');
 			styler.setProperty("--toc-border-color", '#CDC7C3');
 			styler.setProperty("--anchor-color", '#CFA684');
+			styler.setProperty("--code-background-color", '#F9FBFD');
+			styler.setProperty("--code-border-color", '#EDEDED');
 			modeIcon.classList.remove("fa-moon");
 			modeIcon.classList.add("fa-sun");
 		}
@@ -64,6 +66,8 @@ class LightMode{
 			styler.setProperty("--title-tag-color", '#B27444');
 			styler.setProperty("--background-color-page", 'black');
 			styler.setProperty("--toc-border-color", 'white');
+			styler.setProperty("--code-background-color", '#F9FBFD');
+			styler.setProperty("--code-border-color", '#EDEDED');
 			modeIcon.classList.remove("fa-sun");
 			modeIcon.classList.add("fa-moon");
 		}

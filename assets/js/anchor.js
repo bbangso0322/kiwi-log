@@ -26,7 +26,6 @@ class AnchorManager {
 		toc.appendChild(tocTitle);
 
 		for (const header of headers) {
-			console.log(headerPadding[header.tagName]);
 			const tocElement = document.createElement('a');
 			tocElement.setAttribute('href', '#' + header.id);
 			tocElement.setAttribute('class', 'toc-element');
