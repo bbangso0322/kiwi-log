@@ -48,6 +48,8 @@ class LightMode{
 			styler.setProperty("--anchor-color", '#CFA684');
 			styler.setProperty("--code-background-color", '#F9FBFD');
 			styler.setProperty("--code-border-color", '#EDEDED');
+			styler.setProperty("--scroll-color", '#D7D7D7');
+			styler.setProperty("--scroll-color-hover", '#BBB');
 			modeIcon.classList.remove("fa-moon");
 			modeIcon.classList.add("fa-sun");
 		}
