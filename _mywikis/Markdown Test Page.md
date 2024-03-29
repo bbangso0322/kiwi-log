@@ -42,9 +42,10 @@ int main() {
 - [x] Task List
 - [ ] Task List
 
-| table | head  |
-| ----  | ----  |
-| head  | title |
-| para  | text  |
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned |  right|
+| col 2 is      | centered      |   real|
+| zebra stripes | are neat      |   good|
 
 

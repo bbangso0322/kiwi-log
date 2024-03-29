@@ -1,4 +1,4 @@
-p {
+.page-container p {
 	margin: 0.4rem 0;
 }
 
@@ -24,17 +24,41 @@ p {
 	padding: 0.15rem 0.3rem;
 }
 
-code {
+.page-container code {
 	font-family: code-monospace;
 }
 
-blockquote {
+.page-container blockquote {
 	margin: 1rem 0;
 	padding: 0 1rem;
 	background-color: var(--code-background-color);
 	border: 1px solid var(--code-border-color);
 	border-left: 0.3rem solid var(--quote-left-border-color);
 	border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.page-container table {
+	border-spacing: 0;
+	border-collapse: collapse;
+	display: block;
+	width: max-content;
+	max-width: 100%;
+	overflow: auto;
+	margin: 0.4rem 0;
+}
+
+.page-container table th,
+.page-container table td {
+  padding: 0.4rem 0.7rem;
+  border: 1px solid var(--table-border-color);
+}
+
+.page-container a {
+	color: var(--a-tag-color);
+}
+
+.page-container a:hover{
+	text-decoration: underline;
 }
 
 .page-container h1,
@@ -52,8 +76,8 @@ blockquote {
 .page-container ul,
 .page-container ol {
 	padding-left: 1rem;
-	margin-top: 0;
-	margin-bottom: 0;
+	margin-top: 0.4rem;
+	margin-bottom: 0.4rem;
 }
 
 .page-container h1 {
