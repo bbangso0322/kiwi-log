@@ -48,6 +48,9 @@ class LightMode{
 			styler.setProperty("--anchor-color", '#CFA684');
 			styler.setProperty("--code-background-color", '#F9FBFD');
 			styler.setProperty("--code-border-color", '#EDEDED');
+			styler.setProperty("--plaincode-font-color", '#D3851F');
+			styler.setProperty("--plaincode-background-color", '#FFF3E1');
+			styler.setProperty("--quote-left-border-color", '#ffc582');
 			styler.setProperty("--scroll-color", '#D7D7D7');
 			styler.setProperty("--scroll-color-hover", '#BBB');
 			modeIcon.classList.remove("fa-moon");
@@ -70,6 +73,11 @@ class LightMode{
 			styler.setProperty("--toc-border-color", 'white');
 			styler.setProperty("--code-background-color", '#F9FBFD');
 			styler.setProperty("--code-border-color", '#EDEDED');
+			styler.setProperty("--plaincode-font-color", '#EDEDED');
+			styler.setProperty("--plaincode-background-color", '#FFF3E1');
+			styler.setProperty("--quote-left-border-color", '#ffc582');
+			styler.setProperty("--scroll-color", '#D7D7D7');
+			styler.setProperty("--scroll-color-hover", '#BBB');
 			modeIcon.classList.remove("fa-sun");
 			modeIcon.classList.add("fa-moon");
 		}

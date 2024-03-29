@@ -13,8 +13,26 @@ p {
 	line-height: 1rem;
 }
 
+.language-plaintext {
+	font-family: code-monospace;
+	font-size: 0.9rem;
+	color: var(--plaincode-font-color);
+	background-color: var(--plaincode-background-color);
+	border-radius: 0.2rem;
+	padding: 0.15rem 0.3rem;
+}
+
 code {
 	font-family: code-monospace;
+}
+
+blockquote {
+	margin: 1rem 0;
+	padding: 0 1rem;
+	background-color: var(--code-background-color);
+	border: 1px solid var(--code-border-color);
+	border-left: 0.3rem solid var(--quote-left-border-color);
+	border-radius: 0 0.5rem 0.5rem 0;
 }
 
 .page-container h1,
