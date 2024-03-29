@@ -8,9 +8,13 @@ p {
 	padding: 1.3rem;
 	border: 1px solid var(--code-border-color);	
 	border-radius: 1rem;
-	font-family: monospace;
-	font-size: 0.8rem;
+	font-family: code-monospace;
+	font-size: 0.9rem;
 	line-height: 1rem;
+}
+
+code {
+	font-family: code-monospace;
 }
 
 .page-container h1,

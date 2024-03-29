@@ -53,13 +53,20 @@
 }
 
 @font-face {
-	font-family: 'monospace';
-	src: url('/assets/font/SpaceMono-Regular.ttf');
+	font-family: 'code-monospace';
+	src: url('/assets/font/Hack-Regular.ttf');
 	font-weight: 500;
 }
 
 @font-face {
-	font-family: 'monospace';
-	src: url('/assets/font/SpaceMono-Bold.ttf');
+	font-family: 'code-monospace';
+	src: url('/assets/font/Hack-Italic.ttf');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'code-monospace';
+	src: url('/assets/font/Hack-Bold.ttf');
 	font-weight: 700;
 }
