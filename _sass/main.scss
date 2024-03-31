@@ -69,3 +69,7 @@ a {
 ::-webkit-scrollbar-thumb:hover {
     background-color: var(--scroll-color-hover);
 }
+
+::selection {
+	background-color: var(--selection-color);
+}

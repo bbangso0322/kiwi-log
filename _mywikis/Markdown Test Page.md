@@ -25,7 +25,7 @@ tags: markdown
 
 > blockquote
 
-`code`
+`plain code`
 
 ```c
 # code block

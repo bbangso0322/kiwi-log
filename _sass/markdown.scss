@@ -33,6 +33,8 @@
 	padding: 0 1rem;
 	background-color: var(--code-background-color);
 	border: 1px solid var(--code-border-color);
+	border-bottom: 1px;
+	border-top: 1px;
 	border-left: 0.3rem solid var(--quote-left-border-color);
 	border-radius: 0 0.5rem 0.5rem 0;
 }
@@ -55,6 +57,7 @@
 
 .page-container a {
 	color: var(--a-tag-color);
+	font-weight: 700;
 }
 
 .page-container a:hover{

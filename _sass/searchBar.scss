@@ -11,6 +11,10 @@
 	align-items: center;
 }
 
+::placeholder {
+	color: var(--font-color-gray);
+}
+
 .search-bar:focus-within {
 	background-color: transparent;
 }
