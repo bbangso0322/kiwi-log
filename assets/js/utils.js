@@ -30,7 +30,13 @@ class LightMode{
 	setMode(isDarkMode) {
 		const modeIcon = document.getElementById("light-mode");
 		const styler = document.documentElement.style;
+		const codeAreaLists = document.querySelectorAll('div.highlight');
+
 		if(isDarkMode == "false") {
+			for (const area of codeAreaLists) {
+				area.setAttribute('code-theme', 'manni');
+			}
+
 			styler.setProperty("--background-color", '#FFFBF7');
 			styler.setProperty("--background-secondary", '#F8F3EB');
 			styler.setProperty("--background-hover", '#FFDAD4');
@@ -60,6 +66,10 @@ class LightMode{
 			modeIcon.classList.add("fa-sun");
 		}
 		else {
+			for (const area of codeAreaLists) {
+				area.setAttribute('code-theme', 'monokai');
+			}
+
 			styler.setProperty("--background-color", '#07181E');
 			styler.setProperty("--background-secondary", '#1B2D33');
 			styler.setProperty("--background-hover", '#1c3e3e');
