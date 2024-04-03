@@ -15,6 +15,27 @@
 	margin-bottom: 0.5rem;
 }
 
+.highlight  {
+	position: relative;
+}
+
+.copy-container {
+	position: absolute;
+	opacity: 0;
+	top: 1rem;
+	right: 1rem;
+	transition: opacity 0.5s;
+	font-size: 1rem;
+	border: 1px solid var(--font-color);
+	border-radius: 5px;
+	padding:  0.1rem 0.3rem;
+	cursor: pointer;
+}
+
+.highlight:hover .copy-container {
+	opacity: 1;
+}
+
 .language-plaintext {
 	font-family: code-monospace;
 	font-size: 0.9rem;
