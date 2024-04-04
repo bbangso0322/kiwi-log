@@ -24,12 +24,31 @@
 	opacity: 0;
 	top: 1rem;
 	right: 1rem;
-	transition: opacity 0.5s;
-	font-size: 1rem;
-	border: 1px solid var(--font-color);
+	transition: opacity 0.3s;
+	font-size: 1.15rem;
+	border: 1px solid var(--copy-container-color);
 	border-radius: 5px;
-	padding:  0.1rem 0.3rem;
+	padding:  0.18rem 0.43rem;
 	cursor: pointer;
+	color: var(--copy-container-color);
+}
+
+.copy-message {
+	position: absolute;
+	top: -1rem;
+	right: 0.3rem;
+	
+	padding: 0 0.2rem;	
+	font-size: 0.8rem;
+	border-radius: 0.3rem;
+	background-color: var(--copy-background-color);
+	color: var(--copy-font-color);
+	opacity: 0;
+	transition: opacity 100ms;
+}
+
+.copied {
+	opacity: 1;
 }
 
 .highlight:hover .copy-container {
