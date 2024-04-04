@@ -5,22 +5,23 @@ layout: default
 	<div class="empty"> 
 	</div>
 	<div class="page-container">
-		<div class="date-at">
-			created at: {{ page.date | date: "%Y %b %-d" }}
-		</div>
-		<div class="date-at">
-			updated at: {{ page.last_modified_at | date: "%Y %b %-d" }}	
-		</div>
-		<div class="tag-badge-container">
-		{% for tag in page.tags %}
-			<div class="tag-badge">{{ tag }}</div>
-		{% endfor %}
-		</div>
-		<div class="title-tag">Title</div>
-		<div class="wiki-title" id="wiki-title">{{ page.title }}</div>
+		<div class="article-container">
+			<div class="date-at">
+				created at: {{ page.date | date: "%Y %b %-d" }}
+			</div>
+			<div class="date-at">
+				updated at: {{ page.last_modified_at | date: "%Y %b %-d" }}	
+			</div>
+			<div class="tag-badge-container">
+			{% for tag in page.tags %}
+				<div class="tag-badge">{{ tag }}</div>
+			{% endfor %}
+			</div>
+			<div class="title-tag">Title</div>
+			<div class="wiki-title" id="wiki-title">{{ page.title }}</div>
 
-		{{ content }}
-
+			{{ content }}
+		</div>
 	</div>
 
 	<div class="toc-container">

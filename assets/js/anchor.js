@@ -12,11 +12,11 @@ class AnchorManager {
 	createToc(headers, toc, wikiTitle) {
 		const headerPadding = {
 			"H1": "0rem",
-			"H2": "0.5rem",
-			"H3": "1rem",
-			"H4": "1.5rem",
-			"H5": "2rem",
-			"H6": "2.5rem"
+			"H2": "1rem",
+			"H3": "2rem",
+			"H4": "3rem",
+			"H5": "4rem",
+			"H6": "5rem"
 		}
 		
 		const tocTitle = document.createElement('a');
