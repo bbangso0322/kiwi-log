@@ -3,3 +3,20 @@ layout: default
 ---
 {% include homeMain.html %}
 {{ content }}
+<script src="/assets/js/simple-jekyll-search.js"></script>
+<script>
+    var sjs = SimpleJekyllSearch({
+        searchInput: document.getElementById('search-box'),
+        resultsContainer: document.getElementById('results-container'),
+        json: '/search.json',
+        templateMiddleware(prop, value, template) {
+            console.log("prop: " + prop);
+            console.log("value: " + value);
+            console.log("template: " + template);
+        }
+    })
+
+    setTimeout(()=>{
+        sjs.search('wiki');
+    },100);
+</script>
